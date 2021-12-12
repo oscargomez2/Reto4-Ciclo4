@@ -69,7 +69,7 @@ public class OrderController {
     
     //Métodos del reto 4
     //Reto 4: Ordenes de un asesor
-    @GetMapping("/salesMan/{id}")
+    @GetMapping("/salesman/{id}")
     public List<Order> ordersSalesManByID(@PathVariable("id") Integer id){
         return service.ordersSalesManByID(id);
     }
